@@ -51,6 +51,9 @@
             },
             "streamSettings": {
                 "network": "ws",
+                "wsSettings": {
+                    "acceptProxyProtocol": true
+                },
                 "security": "tls",
                 "tlsSettings": {
                     "certificates": [
